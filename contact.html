@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pixel Paws Animal Shelter - Contact</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pixel Paws Animal Shelter</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services / Programs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Contact Us</h2>
+        <p>
+          Have a question about adoption, volunteering, or our programs? Send us
+          a message below.
+        </p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Your Information</legend>
+
+            <p>
+              <label for="fullname">Full Name:</label><br />
+              <input type="text" id="fullname" name="fullname" required />
+            </p>
+
+            <p>
+              <label for="email">Email Address:</label><br />
+              <input type="email" id="email" name="email" required />
+            </p>
+
+            <p>
+              <label for="visitdate">Preferred Visit Date:</label><br />
+              <input type="date" id="visitdate" name="visitdate" />
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your Message</legend>
+
+            <p>
+              <label for="reason">Reason for Contact:</label><br />
+              <select id="reason" name="reason">
+                <option value="adoption">Adoption Inquiry</option>
+                <option value="volunteer">Volunteering</option>
+                <option value="foster">Fostering</option>
+                <option value="donation">Donation</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="message">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="40"
+              ></textarea>
+            </p>
+          </fieldset>
+
+          <p>
+            <input type="submit" value="Send Message" />
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Site created by Yakup Eren Güldaş for Assignment 1.</p>
+      <p>&copy; 2026 Pixel Paws Animal Shelter. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
